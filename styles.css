@@ -124,16 +124,16 @@ html {
 }
 
 .formulario_resposta input {
-    padding: 0.16rem;
+    padding: 0.18rem;
     width: 9rem;
     text-align: center;
     font-size: 0.7rem;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.45rem;
     border-radius: 0.3rem;
 }
 
 .formulario_resposta {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
