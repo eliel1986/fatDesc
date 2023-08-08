@@ -74,6 +74,7 @@ html {
     border-radius: 0.3rem;
 }
 
+
 .resposta {
     background-color: #daecf6;
 
@@ -102,7 +103,6 @@ html {
     font-size: 0.7rem;
     font-weight: bold;
     color: #333;
-    margin-bottom: 0.15rem;
 }
 
 .preencher_formulario {
@@ -123,6 +123,15 @@ html {
     border-radius: 0.3rem;
 }
 
+.formulario_resposta input {
+    padding: 0.16rem;
+    width: 9rem;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-bottom: 0.4rem;
+    border-radius: 0.3rem;
+}
+
 .formulario_resposta {
     margin-top: 1rem;
     display: flex;
@@ -131,14 +140,14 @@ html {
     align-items: center;
 }
 
-.formulario_resposta input {
+/* .formulario_resposta input {
     padding: 0.12rem;
     width: 8rem;
     text-align: center;
     font-size: 0.7rem;
     margin-bottom: 0.3rem;
     border-radius: 0.3rem;
-}
+} */
 
 button {
     background-color: #fdfdfd;
