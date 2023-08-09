@@ -31,35 +31,35 @@ const calcular = () => {
 		document.getElementById('dif_Dens').style.color = 'red';
 	}
 	else {
-		document.getElementById('dif_Dens').style.color = 'black';
+		document.getElementById('dif_Dens').style.color = 'green';
 	}
 	document.getElementById('dif_Dens').value = `${dif_Dens} litros`;
 
 	const difPesos = (pesoDest - pesoOrig).toFixed(0);
 	document.getElementById('pDest_pOrig').value = `${difPesos} Kilos`;
 	if (difPesos < 0) {
-		document.getElementById('pDest_pOrig').style.backgroundColor = 'red';
+		document.getElementById('pDest_pOrig').style.color = 'red';
 	}
 	else {
-		document.getElementById('pDest_pOrig').style.backgroundColor = 'green';
+		document.getElementById('pDest_pOrig').style.color = 'green';
 	}
 
 	const difPesosdensDest = (difPesos / densDest).toFixed(0);
 	document.getElementById('dif_Peso').value = `${difPesosdensDest} litros`;
 	if (difPesosdensDest < 0) {
-		document.getElementById('dif_Peso').style.backgroundColor = 'red';
+		document.getElementById('dif_Peso').style.color = 'red';
 	}
 	else {
-		document.getElementById('dif_Peso').style.backgroundColor = 'green';
+		document.getElementById('dif_Peso').style.color = 'green';
 	}
 
 	const apurado = Number(dif_Dens) + Number(difPesosdensDest) + Number(volDren);
 	document.getElementById('result').value = `${apurado} litros`;
 	if (apurado <= 0) {
-		document.getElementById('result').style.backgroundColor = 'red';
+		document.getElementById('result').style.color = 'red';
 	}
 	else {
-		document.getElementById('result').style.backgroundColor = 'green';
+		document.getElementById('result').style.color = 'green';
 	}
 
 	const valid = ((dif_Dens / volVinteOrig) * 100).toFixed(2);
