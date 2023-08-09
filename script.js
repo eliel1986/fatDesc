@@ -28,10 +28,10 @@ const calcular = () => {
 
 	const dif_Dens = (pesoDest_densDest - pesoDest_densOrig).toFixed(0);
 	if (dif_Dens < 0) {
-		document.getElementById('dif_Dens').style.backgroundColor = 'red';
+		document.getElementById('dif_Dens').style.color = 'red';
 	}
 	else {
-		document.getElementById('dif_Dens').style.backgroundColor = 'green';
+		document.getElementById('dif_Dens').style.color = 'black';
 	}
 	document.getElementById('dif_Dens').value = `${dif_Dens} litros`;
 
