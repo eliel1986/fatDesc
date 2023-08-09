@@ -74,36 +74,6 @@ html {
     border-radius: 0.3rem;
 }
 
-.resposta {
-    background-color: #daecf6;
-
-    max-width: 25rem;
-    height: 28rem;
-    margin: 0.9rem auto;
-    /*background-color: #fdfdfd;*/
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border: 1px solid black;
-    display: none;
-}
-
-.resposta header img {
-    width: 4.4rem;
-    height: 2.4rem;
-}
-
-.resposta header {
-    text-align: center;
-    padding: 0 0.5rem 0.5rem;
-    border-bottom: 0.15rem solid #ccc;
-}
-
-.resposta p {
-    font-size: 0.7rem;
-    font-weight: bold;
-    color: #333;
-}
-
 .preencher_formulario {
     height: 12rem;
     margin-top: 1rem;
@@ -120,6 +90,34 @@ html {
     font-size: 0.8rem;
     margin-bottom: 0.7rem;
     border-radius: 0.3rem;
+}
+
+.resposta {
+    background-color: #daecf6;
+    max-width: 25rem;
+    height: 28rem;
+    margin: 0.9rem auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    display: none;
+}
+
+.resposta header img {
+    width: 4rem;
+    height: 2rem;
+}
+
+.resposta header {
+    text-align: center;
+    padding: 0 0.05rem 0.05rem;
+    border-bottom: 0.15rem solid #ccc;
+}
+
+.resposta p {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #333;
 }
 
 .formulario_resposta input {
@@ -163,4 +161,12 @@ button:hover {
 
 .inform {
     text-align: center;
+}
+
+.inform input {
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
 }
