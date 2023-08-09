@@ -55,7 +55,7 @@ const calcular = () => {
 
 	const apurado = Number(dif_Dens) + Number(difPesosdensDest) + Number(volDren);
 	document.getElementById('result').value = `${apurado} litros`;
-	if (apurado <= 0) {
+	if (apurado < 0) {
 		document.getElementById('result').style.color = 'red';
 	}
 	else {
